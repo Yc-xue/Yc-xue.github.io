@@ -6,7 +6,7 @@
   <link href="https://yc-xue.github.io/atom.xml" rel="self"/>
   
   <link href="https://yc-xue.github.io/"/>
-  <updated>2020-11-23T02:06:46.273Z</updated>
+  <updated>2021-01-08T12:23:09.543Z</updated>
   <id>https://yc-xue.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="https://yc-xue.github.io/2021/01/08/shu-ju-jie-gou/"/>
+    <id>https://yc-xue.github.io/2021/01/08/shu-ju-jie-gou/</id>
+    <published>2021-01-08T10:58:31.000Z</published>
+    <updated>2021-01-08T12:23:09.543Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据结构&quot;&gt;&lt;a href=&quot;#数据结构&quot; class=&quot;headerlink&quot; title=&quot;数据结构&quot;&gt;&lt;/a&gt;数据结构&lt;/h1&gt;&lt;h2 id=&quot;图&quot;&gt;&lt;a href=&quot;#图&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>C语言学习</title>
@@ -73,28 +94,6 @@
         
     <summary type="html">&lt;p&gt;搭建博客&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>完整的文章格式</title>
-    <link href="https://yc-xue.github.io/2020/10/25/yipianwenzhang/"/>
-    <id>https://yc-xue.github.io/2020/10/25/yipianwenzhang/</id>
-    <published>2020-10-25T02:11:07.000Z</published>
-    <updated>2020-12-17T07:03:46.953Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;就这&lt;/p&gt;
-</summary>
         
       
     
