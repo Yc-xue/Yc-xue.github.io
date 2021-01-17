@@ -5,8 +5,8 @@
     
     <entry>
       <title>数据结构</title>
-      <link href="2021/01/08/shu-ju-jie-gou/"/>
-      <url>2021/01/08/shu-ju-jie-gou/</url>
+      <link href="2021/01/08/shu-ju-jie-gou-15/"/>
+      <url>2021/01/08/shu-ju-jie-gou-15/</url>
       
         <content type="html"><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="图"><a href="#图" class="headerlink" title="图"></a><strong>图</strong></h2><h3 id="图的存储"><a href="#图的存储" class="headerlink" title="图的存储"></a>图的存储</h3><h4 id="邻接矩阵"><a href="#邻接矩阵" class="headerlink" title="邻接矩阵"></a>邻接矩阵</h4><p>时间复杂度：O(n*n)</p><p>空间复杂度：O(n*n)</p><pre class=" language-c/c++"><code class="language-c/c++">typedef struct AGraph&#123;    int vertexe;         //节点的个数     int edge;            //边的个数     int G[MAX_N][MAX_N]; //邻接矩阵 &#125;AGraph;void CreateAGraph(AGraph *G)&#123;    int a,b;    cout<<G->vertexe<<G->edge;//输入节点和边的个数     for(int i=0;i<G->edge;i++)//存储，若为有向图则只存G[a][b],若带权责G[a][b]等于带权值     &#123;        cout<<a<<b;        G->G[a][b]=1;        G->G[b][a]=1;    &#125;&#125;</code></pre><h4 id="邻接表"><a href="#邻接表" class="headerlink" title="邻接表"></a>邻接表</h4><h5 id="1-链式"><a href="#1-链式" class="headerlink" title="1.链式"></a>1.链式</h5><p>时间复杂度：O(n+e)</p><pre class=" language-c/c++"><code class="language-c/c++">typedef struct ArcNode       //定义尾节点&#123;    int adjvex;              //节点值    int weight;              //权重    struct ArcNode *next;    //指向下一个节点&#125;ArcNode;typedef struct VerNode       //定义头结点&#123;    int adjvex;              //    ArcNode *FirstArc;       //指向第一个尾节点&#125;VerNode;typedef struct AGraph         //定义图&#123;    int vertexe;                 int edge;                    VerNode AdjList[MAX_N];  //邻接表&#125;AGraph;void CreateAGraph(AGraph *G) //创建图 &#123;   cout<<G->vertexe<<G->edge;   //输入节点与边的个数    for(int i=1;i<=G->vertexe;i++)  //初始化    &#123;        G->AdjList[i]=NULL;    &#125;    ArcNode *p1=(ArcNode*)malloc(sizeof(ArcNode));   ArcNode *p2=(ArcNode*)malloc(sizeof(ArcNode));   for(int i=1;i<=G->edge;i++)        //存储边,有向图注意方向   &#123;           cout<<p1->adjvex<<p1->weight<<p2->adjvex<<p2->weight;           p1->next=G->AdjList[p2->adjvex].FirstArc;           p2->next=G->AdjList[p1->adjvex].FirstArc;           G->AdjList[p2->adjvex].FirstArc=p1->next;           G->AdjList[p1->adjvex].FirstArc=p2->next;   &#125;  &#125;</code></pre><h5 id="2-数组-https-www-cnblogs-com-ECJTUACM-873284962-p-6905416-html"><a href="#2-数组-https-www-cnblogs-com-ECJTUACM-873284962-p-6905416-html" class="headerlink" title="2.数组(https://www.cnblogs.com/ECJTUACM-873284962/p/6905416.html)"></a>2.数组(<a href="https://www.cnblogs.com/ECJTUACM-873284962/p/6905416.html">https://www.cnblogs.com/ECJTUACM-873284962/p/6905416.html</a>)</h5><p>时间复杂度：O(n+e)</p><pre class=" language-c/c++"><code class="language-c/c++">int n,m,i;//u、v和w的数组大小要根据实际情况来设置，要比m的最大值要大1int u[6],v[6],w[6];//first和next的数组大小要根据实际情况来设置，要比n的最大值要大1int first[5],next[5];scanf("%d %d",&n,&m);//初始化first数组下标1~n的值为-1，表示1~n顶点暂时都没有边for(i=1;i<=n;i++)    first[i]=-1;for(i=1;i<=m;i++)&#123;    scanf("%d %d %d",&u[i],&v[i],&w[i]);//读入每一条边    //下面两句是关键啦    next[i]=first[u[i]];    first[u[i]]=i;&#125;//遍历其中一个点k=first[1];// 1号顶点其中的一条边的编号（其实也是最后读入的边）while(k!=-1) //其余的边都可以在next数组中依次找到&#123;    printf("%d %d %d\n",u[k],v[k],w[k]);    k=next[k];&#125;//遍历全部for(i=1;i<=n;i++)&#123;    k=first[i];    while(k!=-1)    &#123;        printf("%d %d %d\n",u[k],v[k],w[k]);        k=next[k];    &#125;&#125;</code></pre>]]></content>
       
@@ -56,8 +56,8 @@
     
     <entry>
       <title>C++学习笔记</title>
-      <link href="2020/11/23/c-xue-xi-bi-ji/"/>
-      <url>2020/11/23/c-xue-xi-bi-ji/</url>
+      <link href="2020/11/23/c-xue-xi-bi-ji-2/"/>
+      <url>2020/11/23/c-xue-xi-bi-ji-2/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -80,13 +80,32 @@
     
     
     <entry>
-      <title>我制作blog用的工具</title>
-      <link href="2020/10/25/wo-zhi-zuo-blog-yong-de-gong-ju/"/>
-      <url>2020/10/25/wo-zhi-zuo-blog-yong-de-gong-ju/</url>
+      <title>我制作bolg用的东西</title>
+      <link href="2020/10/25/wo-zhi-zuo-blog-yong-de-gong-ju-5/"/>
+      <url>2020/10/25/wo-zhi-zuo-blog-yong-de-gong-ju-5/</url>
       
         <content type="html"><![CDATA[<p>搭建博客</p><p><a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=586">https://www.bilibili.com/video/BV1Yb411a7ty?t=586</a></p><p>下载主题（matery）</p><p><a href="http://blinkfox.com/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/">http://blinkfox.com/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/</a></p><p>修改主题让你的blog更能体现你的个性</p><p><a href="https://yafine-blog.cn/posts/8c84.html">https://yafine-blog.cn/posts/8c84.html</a></p><p><a href="https://yafine-blog.cn/posts/12b4.html">https://yafine-blog.cn/posts/12b4.html</a></p><p>图片CDN加速</p><p><a href="https://www.bilibili.com/video/BV1rt411a7pf?t=165">https://www.bilibili.com/video/BV1rt411a7pf?t=165</a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>杂七杂八的函数</title>
+      <link href="2020/10/25/za-qi-za-ba-de-han-shu-18/"/>
+      <url>2020/10/25/za-qi-za-ba-de-han-shu-18/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 知识#文章标签 </tag>
+            
+        </tags>
       
     </entry>
     
