@@ -6,7 +6,7 @@
   <link href="https://yc-xue.github.io/atom.xml" rel="self"/>
   
   <link href="https://yc-xue.github.io/"/>
-  <updated>2021-01-12T07:46:28.747Z</updated>
+  <updated>2021-01-28T12:12:17.626Z</updated>
   <id>https://yc-xue.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Web开发学习</title>
+    <link href="https://yc-xue.github.io/2021/01/27/web-kai-fa-xue-xi-23/"/>
+    <id>https://yc-xue.github.io/2021/01/27/web-kai-fa-xue-xi-23/</id>
+    <published>2021-01-27T10:00:00.000Z</published>
+    <updated>2021-01-28T12:12:17.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;HTML5&quot;&gt;&lt;a href=&quot;#HTML5&quot; class=&quot;headerlink&quot; title=&quot;HTML5&quot;&gt;&lt;/a&gt;HTML5&lt;/h1&gt;&lt;h2 id=&quot;第一个程序&quot;&gt;&lt;a href=&quot;#第一个程序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://yc-xue.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="知识#文章标签" scheme="https://yc-xue.github.io/tags/%E7%9F%A5%E8%AF%86-%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>数据结构</title>
@@ -68,12 +93,20 @@
   </entry>
   
   <entry>
-    <title>C++学习笔记</title>
+    <title>C++基础学习笔记</title>
     <link href="https://yc-xue.github.io/2020/11/23/c-xue-xi-bi-ji-2/"/>
     <id>https://yc-xue.github.io/2020/11/23/c-xue-xi-bi-ji-2/</id>
     <published>2020-11-23T01:31:43.000Z</published>
-    <updated>2020-11-23T01:54:26.268Z</updated>
+    <updated>2021-01-26T14:18:56.756Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一个简单小程序&quot;&gt;&lt;a href=&quot;#一个简单小程序&quot; class=&quot;headerlink&quot; title=&quot;一个简单小程序&quot;&gt;&lt;/a&gt;一个简单小程序&lt;/h1&gt;&lt;pre class=&quot; language-c++&quot;&gt;&lt;code</summary>
+        
+      
     
     
     
@@ -111,8 +144,16 @@
     <link href="https://yc-xue.github.io/2020/10/25/za-qi-za-ba-de-han-shu-18/"/>
     <id>https://yc-xue.github.io/2020/10/25/za-qi-za-ba-de-han-shu-18/</id>
     <published>2020-10-25T02:11:07.000Z</published>
-    <updated>2021-01-15T05:24:48.871Z</updated>
+    <updated>2021-01-17T14:10:24.183Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;1-ungetc-unget-putback&quot;&gt;&lt;a href=&quot;#1-ungetc-unget-putback&quot; class=&quot;headerlink&quot; title=&quot;1.ungetc(), unget(), putback&quot;&gt;&lt;/a&gt;1.ungetc(),</summary>
+        
+      
     
     
     
