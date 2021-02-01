@@ -475,10 +475,15 @@
                 <h1 id="HTML5"><a href="#HTML5" class="headerlink" title="HTML5"></a>HTML5</h1><h2 id="第一个程序"><a href="#第一个程序" class="headerlink" title="第一个程序"></a>第一个程序</h2><pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!ODCTYPE</span> <span class="token attr-name">html</span><span class="token punctuation">></span></span>   //声明该文档是由html5编写的
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>            //html标签，也是根标签
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>第一个程序<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>第一个程序<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>  //网页的标题
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style language-css"> //定义
+            h<span class="token number">1</span> &amp;<span class="token hexcode">#123</span><span class="token punctuation">;</span>h<span class="token number">1</span> &amp;<span class="token hexcode">#123</span><span class="token punctuation">;</span><span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>red&amp;<span class="token hexcode">#125</span><span class="token punctuation">;</span>&amp;<span class="token hexcode">#125</span><span class="token punctuation">;</span>
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Hello world<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>  //h1-h6表示标题的尺寸，p是定义一个段落里面是一段文本
+        &lt;a href = “https://jckly.com/2021/01/27/web-kai-fa-xue-xi-23”>点这里<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span> ///<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><span class="token punctuation">></span></span>表示超链接
+
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a><a href="">标签</a></h3><p>html是使用标签来描述网页，”&lt;&gt;”中的内容称作标签，通常标签都是一对一对的，第一个出现的成为开始标签，第二个的称之为结束标签，它们的名称和关键词是一样的，只不过结束标签比开始标签在前面加了一个‘/’ ，在这之间的所有代码称之为这个标签的元素，标签中的关键字称之为元素的名称，之间的文本就是元素的内容</p>
@@ -1100,12 +1105,6 @@ $(function () {
     
 <script src="/js/snow.js"></script>
 <script type="text/javascript">
-//只在桌面版网页启用特效
-var windowWidth = $(window).width();
-if (windowWidth > 768) {
-    document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
-}
-</script>
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
