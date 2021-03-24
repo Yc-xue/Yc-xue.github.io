@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jckly</title>
+  
+  <subtitle>My blog</subtitle>
+  <link href="https://yc-xue.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yc-xue.github.io/"/>
+  <updated>2021-01-15T05:20:44.512Z</updated>
+  <id>https://yc-xue.github.io/</id>
+  
+  <author>
+    <name>Jckly</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我制作bolg用的东西</title>
+    <link href="https://yc-xue.github.io/2020/10/25/wo-zhi-zuo-blog-yong-de-gong-ju-5/"/>
+    <id>https://yc-xue.github.io/2020/10/25/wo-zhi-zuo-blog-yong-de-gong-ju-5/</id>
+    <published>2020-10-25T02:11:07.000Z</published>
+    <updated>2021-01-15T05:20:44.512Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;搭建博客&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
